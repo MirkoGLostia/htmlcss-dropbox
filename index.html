@@ -1,106 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Open+Sans?query=open+sa">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Discord business</title>
 </head>
 <body>
-    <!-- header: navigation-in-all-page and jumbotron -->
-    <nav>
-        <!-- menù left and rigt -->
-        <div id="nav-menu">
-            <img src="img/logo-small.png" alt="logo">
-            <a href="#">Perchè Dropbox</a>
-            <a href="#">Funzioni</a>
-            <a href="#">Piani e Prezzi</a>
-        </div>
 
-        <div id="nav-menu">
-            <a href="#">Supporto</a>
-            <a href="#">Contatta l'ufficio vendite</a>
-            <a href="#">Accedi</a>
-            <span id="sp-nav"><a>Inizia</a></span>
-        </div>
-    </nav>
+    <header>
 
-    <div>
-        <!-- jumbotron -->
-        <h1></h1>
-        <div>
-            <p></p>
-            <button></button>
-            <span></span>
-            <span></span>
-        </div>
-        <!-- img on right with absolute? -->
-        <img src="" alt="">
-    </div>
-
-
-
-    <!-- main: 7-8 sections -->
-
-    <!-- section 1 -->
-    <section>
-        <h2></h2>
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <div></div>
-    </section>
-
-    <!-- section 2 -->
-    <section>
-        <!-- left -->
-        <img src="" alt="">
-        
-        <!-- right -->
-        <h3></h3>
-        <p></p>
-        <button></button>
-    </section>
-
-    <!-- section 3 -->
-    <section>
-        <h2></h2>
-        <div>
-            <!-- 6 div with flex? -->
-            <div>
-                <img src="" alt="">
-                <h3></h3>
-                <p></p>
+        <!-- header: navigation-in-all-page and jumbotron -->
+        <nav>
+            <!-- menù left and rigt -->
+            <div id="nav-menu">
+                <img src="img/logo-small.png" alt="logo">
+                <a href="#">Perchè Dropbox</a>
+                <a href="#">Funzioni</a>
+                <a href="#">Piani e Prezzi</a>
             </div>
+
+            <div id="nav-menu">
+                <a href="#">Supporto</a>
+                <a href="#">Contatta l'ufficio vendite</a>
+                <a href="#">Accedi</a>
+                <button class="button"><a href="#">Inizia</a></button>
+            </div>
+        </nav>
+
+        <!-- jumbotron -->
+        <div id="jumbo-contain">
+            <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+            <div>
+                <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                <button class="button">Inizia la tua prova gratuita</button>
+                <span>Annulla in qualsiasi momento</span>
+                <span>&#129139;</span>
+            </div>
+            <!-- img on right with absolute? -->
+            <img class="img-prov" src="img/jumbo.png" alt="example view">
         </div>
-    </section>
+        
+    </header>
 
-    <!-- section 4 -->
-    <section>
-        <h2></h2>
-        <a href=""></a>
-    </section>
 
-    <!-- section 5 -->
-    <section>
-        <!-- showcase? -->
-    </section>
+    <!-- main: 7 sections -->
+    <main id="main-container">
 
-    <!-- section 6 -->
-    <section>
-        <!-- left -->
-        <h2></h2>
-        <!-- right -->
-        <button></button>
-    </section>
+        <!-- section 1 -->
+        <section>
+            <h2></h2>
+            <div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div></div>
+        </section>
 
-    <!-- section 7 -->
-    <section>
-        <h2></h2>
-        <!-- 3 div maybe? -->
-    </section>
+        <!-- section 2 -->
+        <section class="flex">
+            <!-- left -->
+            <div>
+                <img id="sct-2-l" src="img/partner.png" alt="friendly">
+            </div>
+            
+            <!-- right -->
+            <div id="sct-2-r">
+                <h2>Entra in contatto con un partner Dropbox</h2>
+                <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, gestione e supporto continui.</p>
+                <button>Trova un partner</button>
+            </div>
+        </section>
 
+        <!-- section 3 -->
+        <section>
+            <h2></h2>
+            <div>
+                <!-- 6 div with flex? -->
+                <div>
+                    <img src="" alt="">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- section 4 -->
+        <section>
+            <h2></h2>
+            <a href=""></a>
+        </section>
+
+        <!-- section 5 -->
+        <section>
+            <!-- showcase? -->
+        </section>
+
+        <!-- section 6 -->
+        <section>
+            <!-- left -->
+            <h2></h2>
+            <!-- right -->
+            <button></button>
+        </section>
+
+        <!-- section 7 -->
+        <section>
+            <h2></h2>
+            <!-- 3 div maybe? -->
+        </section>
+    </main>
 
 
     <!-- footer: 5 menu anchors, lang -->

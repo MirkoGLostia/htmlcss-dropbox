@@ -218,6 +218,20 @@ button > a {
     line-height: 40px;
 }
 
+#foot-contain > div > button {
+    background-color: black;
+    padding: 40px 0;
+    color: rgb(153,153,153);
+    word-spacing: 5px;
+    font-size: 16px;
+    border-top: 2px solid white;
+    padding-right: 30px;
+}
+
+#foot-contain > div > button > span {
+    font-size: 28px;
+    vertical-align: 25%;
+}
 
 
 

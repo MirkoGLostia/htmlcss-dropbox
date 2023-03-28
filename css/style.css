@@ -192,6 +192,39 @@ button > a {
 
 
 
+/* footer */
+
+#foot-contain {
+    background-color: black;
+    width: 100vw;
+    color: white;   
+}
+
+#foot-contain > div {
+    padding-top: 100px;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.foot-li-contain > h4 {
+    margin-bottom: 20px;
+    font-size: 25px;
+
+}
+
+.foot-li-contain > ul {
+    list-style-type: none;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
 /* debug */
 
 /* .img-prov {

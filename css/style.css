@@ -146,6 +146,47 @@ button > a {
 
 
 
+
+/* section 3 */
+
+#sct-3 {
+    margin-top: 100px;
+}
+
+#sct-3 > h2 {
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+#sct-3 > div {
+    flex-wrap: wrap;
+    row-gap: 60px;
+    column-gap: 40px;
+    margin-bottom: 100px;
+}
+
+.card-sct-3 {
+    width: 30%;
+}
+
+.card-sct-3 > img {
+    width: 100%;
+}
+
+.card-sct-3 > h3 {
+    padding-bottom: 40px;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
 /* section 4 */
 
 #sct-4 h2 {
@@ -167,6 +208,7 @@ button > a {
 #sct-6 {
     background-color: rgb(180,208,231);
     padding: 100px 0;
+    width: 100vw;
 }
 
 #sct-6 > .flex {

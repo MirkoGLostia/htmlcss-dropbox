@@ -111,7 +111,7 @@ button > a {
 
 /* main */
 
-#main-container {
+.main-container {
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -156,6 +156,33 @@ button > a {
 #sct-4 a {
     text-decoration: underline;
     color: blue;
+}
+
+
+
+
+
+/* section 6 */
+
+#sct-6 {
+    background-color: rgb(180,208,231);
+    padding: 100px 0;
+}
+
+#sct-6 > .flex {
+    justify-content: space-between;
+    align-items: start;
+}
+
+#sct-6 > .main-container > h2 {
+    flex-basis: 50%;
+    font-size: 40px;
+    color: rgb(97,8,43);
+}
+
+#sct-6 > .main-container > button {
+    font-size: 16px;
+    padding: 10px 40px;
 }
 
 

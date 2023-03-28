@@ -189,6 +189,10 @@ button > a {
 
 /* section 4 */
 
+#sct-4 {
+    margin-bottom: 150px;
+}
+
 #sct-4 h2 {
     padding: 50px 0;
     max-width: 70%;
@@ -198,6 +202,9 @@ button > a {
     text-decoration: underline;
     color: blue;
 }
+
+
+
 
 
 
@@ -226,6 +233,32 @@ button > a {
     font-size: 16px;
     padding: 10px 40px;
 }
+
+
+
+
+/* section 7 */
+
+#sct-7 {
+    padding: 150px 0;
+}
+
+#sct-7 > h2 {
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.sct-7-menu {
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-collapse: collapse;
+}
+
+
+
 
 
 

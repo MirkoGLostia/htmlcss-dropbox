@@ -146,6 +146,21 @@ button > a {
 
 
 
+/* section 4 */
+
+#sct-4 h2 {
+    padding: 50px 0;
+    max-width: 70%;
+    font-size: 40px;
+}
+#sct-4 a {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+
 
 
 

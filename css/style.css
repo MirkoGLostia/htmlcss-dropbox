@@ -257,6 +257,14 @@ button > a {
     border-collapse: collapse;
 }
 
+.sct-7-menu > p {
+    font-weight: bold;
+}
+
+.sct-7-menu > span {
+    padding-right: 30px;
+}
+
 
 
 

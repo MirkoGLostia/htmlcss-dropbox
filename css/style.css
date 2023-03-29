@@ -92,11 +92,15 @@ button > a {
 
 .dwn-arw-jmb {
     font-size: 60px;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 #jumb-img {
     width: 50rem;
+    scale: 120%;
+    position: relative;
+    top: 60px;
+    left: 90px;
 }
 
 

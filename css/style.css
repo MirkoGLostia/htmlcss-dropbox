@@ -144,6 +144,106 @@ button > a {
     font-size: 14px;
 }
 
+.card-flex {
+    width: calc((100/3)-40px);
+    column-gap: 40px;
+    margin-bottom: 50px;
+}
+
+
+.card-container > div {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+.card-container > div > h4 {
+    font-weight: normal;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-card-sct-1 {
+    padding: 25px 30px;
+}
+
+.main-card-sct-1 > h5 {
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.sct-1-price {
+    display: block;
+    font-size: small;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.sct-1-period {
+    display: block;
+    color: grey;
+    margin-bottom: 40px;
+}
+
+.card-carat {
+    column-gap: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.main-card-sct-1 > button {
+    position: relative;
+    left: 20px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.card-under-but {
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+.card-under-but > span {
+    border-bottom: 1px solid grey;
+    padding-bottom: 30px;
+}
+
+.card-under-but > a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.main-card-sct-1 > h6 {
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.main-card-sct-1 > ul {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.main-card-sct-1 > ul > li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.main-card-sct-1 > ul > li::before {
+    color: blue;
+    content: "";
+    position: absolute;
+    left: 0px;
+    width: 1em;
+    height: 1em;
+    background: url(../img/check-solid.svg);
+}
+
+
+
+
 
 
 
@@ -360,4 +460,8 @@ button > a {
 /* .img-prov {
     width: 500px;
 } */
-
+/* 
+.card-container > div {
+    max-width: 300px;
+}
+ */

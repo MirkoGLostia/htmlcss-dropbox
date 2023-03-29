@@ -124,6 +124,35 @@ button > a {
 
 
 
+/* section 1 */
+
+#sct-1 {
+    margin-top: 150px;
+}
+
+#sct-1 > h2 {
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+#check-cont-sct-1 {
+    padding-bottom: 50px;
+}
+
+#check-cont-sct-1 > span {
+    padding-right: 60px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
 /* section 2 */
 #sct-2-l {
     width: 40rem;

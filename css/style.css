@@ -128,6 +128,7 @@ button > a {
 
 #sct-1 {
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 #sct-1 > h2 {
@@ -144,10 +145,22 @@ button > a {
     font-size: 14px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 .card-flex {
     width: calc((100/3)-40px);
     column-gap: 40px;
     margin-bottom: 50px;
+    align-items: stretch;
 }
 
 
@@ -163,8 +176,22 @@ button > a {
     padding-bottom: 10px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 .main-card-sct-1 {
-    padding: 25px 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .main-card-sct-1 > h5 {
@@ -184,6 +211,18 @@ button > a {
     color: grey;
     margin-bottom: 40px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 .card-carat {
     column-gap: 5px;
@@ -241,8 +280,36 @@ button > a {
     background: url(../img/check-solid.svg);
 }
 
+.main-card-sct-1 > ul > li svg {
+    color: blue;
+}
 
 
+
+
+
+
+
+
+.ori-card {
+    justify-content: space-between;
+}
+
+.ori-card > div > h5 {
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.ori-card > div > span {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.ori-card > div > p {
+    font-size: 14px;
+    margin-top: 30px;
+    width: 90%;
+}
 
 
 
